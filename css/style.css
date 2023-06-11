@@ -1,0 +1,423 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* ============head section=========== */
+.header {
+    background-image: url("../images/headar_background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+}
+.navbar-brand{
+    width: 70px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: rgb(255 87 34);
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+}
+.navbar-expand-lg .navbar-nav .nav-link::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(255 87 34);
+    display: block;
+    margin: auto;
+    transition: all 0.4s ease-in-out 0s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover::after {
+    width: 100%;
+}
+.tex {
+    margin-top: 35%;
+}
+.tex h3 {
+    color: rgb(87, 215, 24);
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 0px;
+}
+.tex h1 {
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    font-family: Roboto, sans-serif;
+}
+.tex p {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+}
+.btn-more {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    border: 1px dotted rgb(255, 255, 255);
+    border-radius: 7px;
+    transition: all 0.4s ease-in-out 0s;
+}
+.btn-more:hover {
+    background: rgb(244, 67, 54);
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+}
+.header-one {
+    text-align: center;
+    padding: 70px 0px;
+}
+.header-one span {
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: rgb(114, 244, 54);
+    position: relative;
+    margin: auto;
+}
+.header-one span::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    left: 0px;
+    bottom: 0px;
+    width: 0px;
+    height: 5px;
+    background-color: rgb(244, 67, 54);
+    margin: auto;
+    transition: all 0.4s ease-in-out 0s;
+}
+.header-one span::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    right: 0px;
+    bottom: 0px;
+    width: 0px;
+    height: 5px;
+    background-color: rgb(244, 67, 54);
+    margin: auto;
+    transition: all 0.4s ease-in-out 0s;
+}
+/* ============head section end=========== */
+/* ============Course We Offer=========== */
+.course:hover .header-one span::before {
+    width: 49px;
+}
+.course:hover .header-one span::after {
+    width: 49px;
+}
+.header-one h1 {
+    margin: 0px;
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.header-one p {
+    margin: 0px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.our-course{
+    text-decoration: none;
+    color: #000;
+}
+.course-intermediet {
+    background: rgb(255, 243, 243);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    transition: all 0.4s ease-in-out 0s;
+    margin-bottom: 50px;
+}
+.course-intermediet h1 {
+    margin: 0px;
+    padding: 20px 0px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.course-intermediet p {
+    font-size: 17px;
+    color: rgb(115, 111, 111);
+}
+.course-intermediet:hover {
+    box-shadow: rgb(0, 0, 0) 1px 1px 6px 0px;
+    color: #ff5722;
+}
+/* ============Course We Offer end=========== */
+/* ============Our Campus=========== */
+.Campus {
+    margin-bottom: 50px;
+}
+.Campus:hover .header-one span::before {
+    width: 49px;
+}
+.Campus:hover .header-one span::after {
+    width: 49px;
+}
+.campus-img {
+    position: relative;
+}
+.campus-img::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 0%;
+    background: rgb(24, 24, 24);
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+    opacity: 0.4;
+}
+.campus-img:hover::after {
+    height: 100%;
+}
+.img-titel {
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    transform: translate(-40%, -0%);
+    transition: all 0.4s ease-in-out 0s;
+}
+.img-titel h4 {
+    margin: 0px;
+    color: rgb(255 87 34);
+}
+.campus-img:hover .img-titel {
+    top: 50%;
+}
+/* ============Our Campus end=========== */
+/* ============Our Facilities=========== */
+.our-facilities:hover .header-one span::before {
+    width: 49px;
+}
+.our-facilities:hover .header-one span::after {
+    width: 49px;
+}
+.campus-img {
+    position: relative;
+}
+.img-des {
+    text-align: center;
+}
+.Facilities-img {
+    border-radius: 15px;
+    overflow: hidden;
+}
+.img-des h3 {
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.img-des a {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+    color: rgb(255, 87, 34);
+    cursor: pointer;
+}
+/* ============Our Facilities end=========== */
+/* ============what Our Student Says =========== */
+.student-say:hover .header-one span::before {
+    width: 49px;
+}
+
+.student-say:hover .header-one span::after {
+    width: 49px;
+}
+.student-rivew{
+    background-color: #fff3f3;
+    padding: 20px 50px;
+}
+.student-des a {
+    text-decoration: none;
+    color: rgb(255, 87, 34);
+}
+.our-student {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    width: 200px;
+    justify-content: space-around;
+}
+.student-img {
+    width: 65px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.aminur{    
+    width: 52px;
+}
+.student-name h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.student-name i {
+    color: #FF5722;
+}
+/* ============what Our Student Says end=========== */
+/* ============our-teachers=========== */
+.our-teachers:hover .header-one span::before {
+    width: 49px;
+}
+.our-teachers:hover .header-one span::after {
+    width: 49px;
+}
+.teacher-img{
+    background-image: url(../images/14.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    position: relative;
+}
+.teacher-titel{
+    position: absolute;
+    top: 65%;
+    text-align: center;
+    transition: .4s all ease-in-out;
+}
+.teacher-img:hover .teacher-titel{
+    top: 55%;
+}
+.teacher-titel h2{
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+.btn-contact{
+    margin-top: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 25px;
+    padding: 0;
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: .4s all ease-in-out;
+}
+.btn-contact:hover{
+    background-color: #FF5722;
+    color: #fff;
+}
+/* ============our-teachers end=========== */
+/* ============contact-us=========== */
+.contact-us{
+    padding: 20px 0;
+    background-color: #eddad5;
+}
+.contact-us:hover .header-one span::before {
+    width: 49px;
+}
+
+.contact-us:hover .header-one span::after {
+    width: 49px;
+}
+.icon{   
+    text-align: center;
+}
+.icon i{
+    font-size: 40px;
+    color: #FF5722;
+}
+.icon-titel{   
+    padding-top: 20px;
+}
+.icon-titel span{
+    font-size: 17px;
+    font-weight: 500;
+}
+.icon-titel a{    
+    text-decoration: none;    
+    color: #333fff;   
+    font-size: 17px;    
+    font-weight: 500;
+}
+/* ============contact-us end=========== */
+/* ============footer section=========== */
+.footer-section{
+    background-color: #202020;
+    padding: 20px  0;
+}
+.footer-links{   
+    text-align: center;
+}
+.footer-links ul{
+    display: flex;
+}
+.footer-links ul li{
+    list-style: none;
+    margin-left: 21px;
+    text-transform: capitalize;
+}
+.footer-links ul li a{
+    text-decoration: none;
+    color: #ff5722;
+    transition: .4s all ease-in-out;
+}
+.footer-links ul li a::after{
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: rgb(51, 63, 255);
+    display: block;
+    margin: auto;
+    transition: all 0.4s ease-in-out 0s;
+}
+.footer-links ul li a:hover::after{
+    width: 100%;
+}
+.footer-social ul{
+    display: flex;
+}
+.footer-social ul li{
+    margin-left: 20px;
+}
+.footer-social ul li a{
+    text-decoration: none;
+    color: #ff5722;
+    transition: .4s all ease-in-out;
+}
+.footer-social ul li a:hover{
+    color: rgb(51, 63, 255);
+}
+.footer-bottom{   
+    text-align: center;
+}
+.footer-bottom p{
+    color: #ff5722;
+    font-size: 14px;
+    margin: 0;
+}
+/* ============footer section end=========== */
+/* ============owl carousel=========== */
+.owl-dots{   
+    text-align: center;
+}
+.owl-dots .owl-dot span{
+    background: transparent;
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #ff5722;
+    margin: 0 5px;
+}
+.owl-dots .active span{
+    background: #ff5722;
+    outline: 2px solid #ff5722;
+}
+.owl-nav{
+    display: none;
+}
+/* ============owl carousel end=========== */
+
